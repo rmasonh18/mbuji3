@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
+import Image from 'next/image';
 
 const FeatureBox = (props) => {
   return (
@@ -10,7 +11,13 @@ const FeatureBox = (props) => {
         <Row key={key} className={feature.id === 1 ? "align-items-center" : "align-items-center mt-5"}>
           <Col md={5} >
             <div>
-              <img src={feature.img} alt="" className="img-fluid d-block mx-auto"/>
+            <Image 
+              src="/images/black-logo.png"
+              width={400}
+              height={250}
+              alt="Jacqueline Taylor & Friends"
+            />
+              
             </div>
           </Col>
             <Col md={{size:6, offset:1}}>
@@ -38,7 +45,13 @@ const FeatureBox = (props) => {
         </Col>
         <Col md={{size:5, offset:1}} className="mt-5 mt-sm-0">
           <div>
-            <img src={feature.img} alt="" className="img-fluid d-block mx-auto"/>
+          <Image 
+              src="/images/black-logo.png"
+              width={400}
+              height={250}
+              alt="Jacqueline Taylor & Friends"
+            />
+            
           </div>
         </Col>
       </Row>
@@ -63,7 +76,7 @@ const Feature = () => {
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
               <h3 className="font-weight-normal text-dark"><span className="text-warning">Features</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <p className="text-muted">Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
             </div>
           </Col>
         </Row>
