@@ -8,40 +8,31 @@
  * Copyright (c) 2022 Bujisoft
  */
 
-import Mbhead from '../components/Mbhead';
-import Header from '../components/Header';
+//import Mbhead from '../components/Mbhead';
+import Layout from '../components/Layout';
+import Header3 from '../components/Header3';
 import Footerx from '../components/Footerx';
-
-export default function Home() {
+//import Layout from "../components/Layout";
+//import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Feature from '../components/Feature';
+import Service from '../components/Service';
+import About from '../components/About';
+import Webinar from '../components/Webinar';
+//import Footer from '../components/Footer';
+const Index = () => {
   return (
-    <main className='d-flex flex-column min-vh-100'>
-      <Mbhead />
-        
-      <Header />
-
-      <div className='px-4 py-5 my-5 text-center flex-grow-1'>
-        <h1 className='display-5 fw-bold'>Home ❤️</h1>
-        <div className='col-lg-6 mx-auto'>
-          <p className='lead mb-4'>
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
-          </p>
-          <div className='d-grid gap-2 d-sm-flex justify-content-sm-center'>
-            <button type='button' className='btn btn-primary btn-lg px-4 gap-3'>
-              Primary button
-            </button>
-            <button
-              type='button'
-              className='btn btn-outline-secondary btn-lg px-4'
-            >
-              Secondary
-            </button>
-          </div>
-        </div>
-      </div>
+    <Layout pageTitle="Landing Page Nextjs">
+      <Header3 />
+      <Hero />
+      <Webinar />
+      <Feature/>
+      <Service />
+      <About />
+      
       <Footerx />
-    </main>
-  );
+    </Layout>
+  )
 }
+
+export default Index;

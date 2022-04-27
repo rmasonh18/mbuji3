@@ -10,16 +10,16 @@
 
 
 
-import Mbhead from '../components/Mbhead';
-import Header from '../components/Header';
+//import Mbhead from '../components/Mbhead';
+import Header3 from '../components/Header3';
 import Footer from '../components/Footer';
 import Script from 'next/script';
 
 export default function Signup() {
   return (
     <main>
-      <Mbhead />
-      <Header />
+      
+      <Header3 />
       <br></br>
   
 

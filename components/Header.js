@@ -12,17 +12,17 @@ const Header = () => {
           >
             <Image 
               src="/images/white-logo.png"
-              width={150}
-              height={75}
+              width={80}
+              height={30}
               alt="Jacqueline Taylor & Friends"
             />
           </a>
 
           <ul className='nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0'>
             <li>
-              {/* <a href='/' className='nav-link px-2 text-secondary'>
+               <a href='/' className='nav-link px-2 text-secondary'>
                 Home
-              </a> */}
+              </a> 
             </li>
             <li>
               <a href='/about' className='nav-link px-2 text-white'>
