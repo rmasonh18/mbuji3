@@ -3,12 +3,12 @@ import { Container, Row, Col } from "reactstrap";
 
 const Service = () => {
   const services = [
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
-    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry standard dummy text ever since the 1500s" },
+    { title : "Lorem Ipsum", desc : "Lorem Ipsum has been the industry standard dummy text ever since the 1500s" },
   ]
   
   return (
