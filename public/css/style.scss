@@ -67,6 +67,7 @@ $black-color: #0a0a0b;
 $paragraph-color: #57647c;
 $font-size: 14px;
 $transition: .5s;
+$theme-color: #2EA6DF;
 
 /*================================================
 Footer Area CSS
@@ -75,7 +76,7 @@ Footer Area CSS
     position: relative;
     z-index: 1;
     padding-top: 100px;
-    background-color: purple;
+    background-color:$theme-color;
 }
 .single-footer-widget {
     margin-bottom: 30px;
@@ -463,3 +464,5 @@ Navbar Area CSS
 nav-link{
     color:white;
   }
+
+  
