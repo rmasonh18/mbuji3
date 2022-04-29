@@ -25,10 +25,14 @@ const Index = () => {
     <Layout pageTitle="Jacqueline Taylor & Friends">
       <Header3 />
       <Hero />
-      <Webinar />
+    
       <Feature/>
       <Service />
+
+    
       <About />
+
+      <Webinar />
       
       <Footerx />
     </Layout>
