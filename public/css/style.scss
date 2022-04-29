@@ -68,6 +68,8 @@ $paragraph-color: #57647c;
 $font-size: 14px;
 $transition: .5s;
 $theme-color: #2EA6DF;
+$bottom-color:#918ce0;
+
 
 /*================================================
 Footer Area CSS
@@ -226,7 +228,7 @@ Footer Area CSS
     }
 }
 .copyright-area {
-    background-color: #000000;
+    background-color:$bottom-color;
     margin-top: 70px;
     padding: {
         top: 20px;

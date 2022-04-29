@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 import Image from 'next/image';
 
+
 const FeatureBox = (props) => {
   return (
     <>
@@ -12,9 +13,9 @@ const FeatureBox = (props) => {
           <Col md={5} >
             <div>
             <Image 
-              src="/images/black-logo.png"
-              width={400}
-              height={250}
+              src="/images/logo-v.png"
+              width={250}
+              height={125}
               alt="Jacqueline Taylor & Friends"
             />
               
@@ -46,8 +47,8 @@ const FeatureBox = (props) => {
         <Col md={{size:5, offset:1}} className="mt-5 mt-sm-0">
           <div>
           <Image 
-              src="/images/black-logo.png"
-              width={400}
+              src="/images/jt-m.png"
+              width={250}
               height={250}
               alt="Jacqueline Taylor & Friends"
             />
@@ -64,9 +65,18 @@ const FeatureBox = (props) => {
 const Feature = () => {
 
   const features = [
-    {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
-    {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
-    {id : 3, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 1, 
+    title : "Welcome to our new website", 
+    desc : "", 
+    link : "/"},
+    {id : 2,
+    title : "LOREM IPSUM",
+     desc : "", 
+     link : "/"},
+    {id : 3, 
+    title : "LOREM IPSUM", 
+    desc : "", 
+    link : "/"},
   ];
 
   return (
@@ -76,7 +86,7 @@ const Feature = () => {
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
               <h3 className="font-weight-normal text-dark"><span className="text-warning">Features</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <p className="text-muted"></p>
             </div>
           </Col>
         </Row>

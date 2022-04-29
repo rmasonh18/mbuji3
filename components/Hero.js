@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Image from 'next/image';
 import Link from 'next/link';
+import ProfileImage from "../public/images/main-m.png";
 const Hero = () => {
   return (
     <section className="section position-relative">
@@ -25,9 +26,10 @@ const Hero = () => {
           <Col lg={6}>
             <div className="mt-5 mt-lg-0">
             <Image 
-              src="/images/black-logo.png"
+              // src="/images/black-logo.png"
+              src={ProfileImage}
               width={400}
-              height={250}
+              height={300}
               alt="Jacqueline Taylor & Friends"
             />
 

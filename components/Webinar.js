@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import webinarImage from '../public/images/swan.png';
+import webinarImage from '../public/images/swan-m.png';
 import Image from 'next/image'
 
 
