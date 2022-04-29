@@ -21,7 +21,7 @@ const Hero = () => {
               </p>
              
               <Link href="/signup" passHref>
-                <a className="btn btn-warning">Signup Now <span className="ml-2 right-icon">&#8594;</span></a>
+                <a className="btn btn-success">Login <span className="ml-2 right-icon">&#8594;</span></a>
               </Link>
 
               
@@ -29,6 +29,7 @@ const Hero = () => {
           </Col>
           <Col lg={6}>
             <div className="mt-5 mt-lg-0">
+            <br></br>
             <Image 
     
               src={ProfileImage}

@@ -59,7 +59,7 @@ class Footerx extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="single-footer-widget">
                                 <h3>Cello Lessons</h3>
 
@@ -93,7 +93,7 @@ class Footerx extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-md-6 col-sm-6">
+                       {/*  <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-footer-widget">
                                 <h3>Quick Links</h3>
 
@@ -103,7 +103,7 @@ class Footerx extends Component {
                                             <a>About Us</a>
                                         </Link>
                                     </li>
-                                    {/* <li>
+                         */}            {/* <li>
                                         <Link href="/blog">
                                             <a>Blog</a>
                                         </Link>
@@ -122,9 +122,9 @@ class Footerx extends Component {
                                             <a>Pricing</a>
                                         </Link>
                                     </li>*/}
-                                </ul>
+                            {/*     </ul>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-footer-widget">

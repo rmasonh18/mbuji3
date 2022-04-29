@@ -16,7 +16,7 @@ import Footerx from '../components/Footerx';
 //import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Feature from '../components/Feature';
-import Service from '../components/Service';
+//import Service from '../components/Service';
 import About from '../components/About';
 import Webinar from '../components/Webinar';
 //import Footer from '../components/Footer';
@@ -27,7 +27,7 @@ const Index = () => {
       <Hero />
     
       <Feature/>
-      <Service />
+      {/* <Service /> */}
 
     
       <About />

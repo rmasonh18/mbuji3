@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 const FeatureBox = (props) => {
@@ -28,7 +29,13 @@ const FeatureBox = (props) => {
                 </div>
                 <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
                 <p className="text-muted mb-3 f-15">{feature.desc}</p>
-                <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a>
+                <Link href="/signup" passHref>
+                <a className="btn btn-warning">Signup Now <span className="ml-2 right-icon">&#8594;</span></a>
+              </Link>
+              
+              
+                {/* <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a> */}
+              
               </div>
             </Col>
         </Row>
@@ -41,7 +48,11 @@ const FeatureBox = (props) => {
             </div>
             <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
             <p className="text-muted mb-3 f-15">{feature.desc}</p>
-            <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a>
+            <Link href="/signup" passHref>
+                <a className="btn btn-warning">Signup Now <span className="ml-2 right-icon">&#8594;</span></a>
+              </Link>
+            
+            {/* <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a> */}
           </div>
         </Col>
         <Col md={{size:5, offset:1}} className="mt-5 mt-sm-0">
@@ -66,16 +77,16 @@ const Feature = () => {
 
   const features = [
     {id : 1, 
-    title : "Welcome to our new website", 
-    desc : "", 
+    title : "Calendar Synchronization", 
+    desc : "Sync calendar with all your devices so you can keep track of appointments. Students and parents are able to login inm portal to view and sync calendars with their schedules.", 
     link : "/"},
     {id : 2,
-    title : "LOREM IPSUM",
-     desc : "", 
+    title : "Practice Log",
+     desc : "Students are able to record the time spent practicing and able to make notes and leave questions. The Practice timer can be used manually to add time or use built in timer to log their practice time.", 
      link : "/"},
     {id : 3, 
-    title : "LOREM IPSUM", 
-    desc : "", 
+    title : "Student/Parent Portal", 
+    desc : "Students and parents can login anytime to view their upcoming lessons, stream audio/video files, track their practice and more. Parents logins will have access to the Account & Invoices menu where they can make online payments through the portal.", 
     link : "/"},
   ];
 
