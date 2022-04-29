@@ -32,12 +32,12 @@ const Header = () => {
     <div className={`header${sticky ? ' sticky' : ''}`}>
       <Navbar dark expand="md">
         <Container>
-          {/* <NavbarBrand href="/">  <Image 
-              src="/images/white-logo.png"
-              width={100}
+           {/* <NavbarBrand href="/">  <Image 
+              src="/images/favicon.ico"
+              width={30}
               height={30}
               alt="Jacqueline Taylor & Friends"
-            /> </NavbarBrand> */}
+            /> <NavbarBrand />  */}
           <NavbarToggler onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>

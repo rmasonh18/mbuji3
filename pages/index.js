@@ -22,7 +22,7 @@ import Webinar from '../components/Webinar';
 //import Footer from '../components/Footer';
 const Index = () => {
   return (
-    <Layout pageTitle="Landing Page Nextjs">
+    <Layout pageTitle="Jacqueline Taylor & Friends">
       <Header3 />
       <Hero />
       <Webinar />
