@@ -14,7 +14,7 @@ import Header3 from '../components/Header3';
 //import HeaderFooter from '../components/Footer';
 import Script from 'next/script';
 
-export default function Login(options) {
+export default function Login() {
   return (
     <main>
       
