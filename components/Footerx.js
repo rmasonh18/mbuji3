@@ -24,13 +24,16 @@ class Footerx extends Component {
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-footer-widget">
                                 <div className="logo">
-                                    <a href="https://jacquelinetaylorandfriends.org">
-                                        <Image 
+                                    {/* <a href="/"> */}
+                                    <Link href="/" passHref>
+                                    <Image 
                                         src="/images/white-logo.png" 
                                         width={150}
                                         height={70}
                                         alt="image" />
-                                    </a>
+                                        </Link>
+                                        
+                                    
                                     {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p> */}
                                 </div>
 
