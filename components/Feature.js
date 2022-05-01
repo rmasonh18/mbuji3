@@ -82,7 +82,7 @@ const Feature = () => {
     link : "/"},
     {id : 2,
     title : "Practice Log",
-     desc : "Students are able to record the time spent practicing and able to make notes and leave questions. The Practice timer can be used manually to add time or use built in timer to log their practice time.", 
+     desc : "Students are able to record the time spent practicing and able to make notes. The Practice timer can be used manually to add time or students can use the built in timer to log their practice time.", 
      link : "/"},
     {id : 3, 
     title : "Student/Parent Portal", 

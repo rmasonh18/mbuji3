@@ -16,7 +16,7 @@ const Hero = () => {
               <h1 className="mb-4 font-weight-normal line-height-1_4">Grand Opening</h1>
               <p className="text-muted mb-4 pb-2">
                 Welcome to our new website. We are happy to announce our new calendar based booking system integrated with Facetime so our students can easily save their meeting URLS and join lessons directly from their calendar. 
-                Jacqueline is an experienced Orchestral Performer with over 20 years experience as principal along with several solo performances in Georgia, SC and North Carolina. 
+                
 
               </p>
              

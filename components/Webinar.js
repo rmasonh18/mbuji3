@@ -32,7 +32,7 @@ class Webinar extends Component {
                                 <p> <strong>Encore performance in Brevard NC</strong></p>
                                 <h6><italic>Review by Aparition42</italic></h6>
 
-                            <p>I love cello.  You tone is extraoridinarily clear and bright.  I love how animated you are when you play.  Please post more of your performances.</p>
+                            <p>I love cello.  Your tone is extraoridinarily clear and bright.  I love how animated you are when you play.  Please post more of your performances.</p>
                                
                                 {/* <Link href="#">
                                     <a className="btn btn-primary">Watch More</a>
